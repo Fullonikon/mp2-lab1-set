@@ -80,6 +80,7 @@ TBitField& TBitField::operator=(const TBitField &bf) // присваивание
 	{
 		pMem[i] = bf.pMem[i];
 	}
+	return *this;
 }
 
 int TBitField::operator==(const TBitField &bf) const // сравнение
